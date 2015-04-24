@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/littlstar/LittlstarSDK_iOS'
   s.author = { 'Littlstar dev. team' => 'dev@littlstar.com' }
   s.platform = :ios
-  s.source = { :git => 'git@github.com::littlstar/LittlstarSDK_iOS.git', :tag => "#{s.version}" }
+  s.source = { :git => 'git@github.com:littlstar/LittlstarSDK_iOS.git', :tag => "#{s.version}" }
   s.source_files = 'LittlstarSDK/Headers/*.h'
   s.preserve_paths = 'LittlstarSDK/libLittlstarSDK.a'
   s.vendored_libraries = 'LittlstarSDK/libLittlstarSDK.a'

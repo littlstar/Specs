@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Littlstar dev. team' => 'dev@littlstar.com' }
   s.source           = { :git => 'git@github.com:littlstar/ls-ios-sdk.git', 
 			 :tag => '1.0.3', 
-			 :branch => 'dev' }
+			 :branch => 'vp-bridge-test' }
   s.social_media_url = 'https://www.instagram.com/littlstarvr/'
   s.ios.deployment_target = '8.0'
   s.source_files = 'ls-ios-sdk/**/*.{h,m,swift}'

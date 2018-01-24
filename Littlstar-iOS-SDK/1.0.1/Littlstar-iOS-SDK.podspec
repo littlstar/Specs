@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Littlstar-iOS-SDK'
-  s.version          = '1.0.1'
+  s.version          = '1.0.5'
   s.summary          = 'Littlstar-iOS-SDK containing components for 360 video player'
   s.homepage         = 'https://littlstar.com/'
   s.license          = { 
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   }
   s.author           = { 'Littlstar dev. team' => 'dev@littlstar.com' }
   s.source           = { :git => 'git@github.com:littlstar/ls-ios-sdk.git', 
-			 :tag => '1.0.1', 
+			 :tag => "${s.version}", 
 			 :branch => 'vp-bridge-test' }
 
   s.social_media_url = 'https://www.instagram.com/littlstarvr/'

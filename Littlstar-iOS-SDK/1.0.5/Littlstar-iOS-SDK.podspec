@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   }
   s.author           = { 'Littlstar dev. team' => 'dev@littlstar.com' }
   s.source           = { :git => 'git@github.com:littlstar/ls-ios-sdk.git',
-       :tag => "${s.version}",
+       :tag => "#{s.version}",
        :branch => 'vp-bridge-test' }
 
   s.social_media_url = 'https://www.instagram.com/littlstarvr/'

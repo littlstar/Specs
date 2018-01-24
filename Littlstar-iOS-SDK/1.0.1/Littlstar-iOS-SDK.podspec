@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Littlstar-iOS-SDK'
-  s.version          = '1.0.1'
+  s.version          = '1.0.3'
   s.summary          = 'Littlstar-iOS-SDK containing components for panorama video'
   s.homepage         = 'https://littlstar.com/'
   s.license          = { 
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   }
   s.author           = { 'Littlstar dev. team' => 'dev@littlstar.com' }
   s.source           = { :git => 'git@github.com:littlstar/ls-ios-sdk.git', 
-			 :tag => '1.0.2', 
+			 :tag => '1.0.3', 
 			 :branch => 'dev' }
   s.social_media_url = 'https://www.instagram.com/littlstarvr/'
   s.ios.deployment_target = '8.0'

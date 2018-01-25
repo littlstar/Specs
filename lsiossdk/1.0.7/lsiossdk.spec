@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name             = 'Littlstar-iOS-SDK'
-  s.version          = '1.0.6'
+  s.name             = 'lsiossdk'
+  s.version          = '1.0.7'
   s.summary          = 'Littlstar-iOS-SDK containing components for 360 video player'
   s.homepage         = 'https://littlstar.com/'
   s.license          = {

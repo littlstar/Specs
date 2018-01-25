@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.social_media_url = 'https://www.instagram.com/littlstarvr/'
   s.ios.deployment_target = '8.0'
-  s.source_files = 'ls-ios-sdk/**/*.{h,m,swift}'
+  s.source_files = 'ls-ios-sdk/Interface/**/*.{h,m,swift}'
   s.ios.frameworks = 'UIKit', 'GLKit', 'AVKit', 'Foundation', 'AVFoundation', 'Photos', 'MobileCoreServices', 'CoreMotion'
   s.dependency 'lottie-ios'
   # s.dependency 'GVRSDK'

@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.source_files = 'ls-ios-sdk/**/*.{h,m,swift}'
   s.ios.frameworks = 'UIKit', 'GLKit', 'AVKit', 'Foundation', 'AVFoundation', 'Photos', 'MobileCoreServices', 'CoreMotion'
   s.dependency 'lottie-ios'
+  s.dependency 'GVRSDK'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.resource_bundles = {

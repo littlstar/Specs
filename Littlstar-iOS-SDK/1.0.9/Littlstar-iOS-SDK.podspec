@@ -14,12 +14,20 @@ Pod::Spec.new do |s|
                          :branch => 'vp-bridge-pod-test' }
 
   s.social_media_url = 'https://www.instagram.com/littlstarvr/'
+
   s.ios.deployment_target = '8.0'
-  s.source_files = 'ls-ios-sdk/**/*.{h,m,swift}'
+
+  s.source_files = 'ls-ios-sdk', 'ls-ios-sdk/**/*.{h,m,mm,swift}'
+
   s.ios.frameworks = 'UIKit', 'GLKit', 'AVKit', 'Foundation', 'AVFoundation', 'Photos', 'MobileCoreServices', 'CoreMotion'
+
   s.dependency 'lottie-ios'
 
+  s.resources = 'ls-ios-sdk/**/*.{json,glsl}'
+
   s.public_header_files = 'ls-ios-sdk/**/*.h'
+
+
   # s.resource_bundles = {
   #   '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
   # }

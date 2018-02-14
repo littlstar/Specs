@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LittlstarPlayerSDK', 'LittlstarPlayerSDK/{Core,Interface,Meta}/*.{h,m,mm,swift}'
+  s.source_files = 'LittlstarPlayerSDK', 'LittlstarPlayerSDK/{Core,Interface,Meta}/**/*.{h,m,mm,swift}'
   # s.preserve_paths = 'LSContentManager.h'
 
   s.subspec 'LittlstarSDK' do |ss|

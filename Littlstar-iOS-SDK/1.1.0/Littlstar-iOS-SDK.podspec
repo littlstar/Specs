@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'LittlstarSDK' do |ss|
     ss.source_files = 'LittlstarPlayerSDK/LittlstarSDK/*.h'
+    ss.preserve_paths = 'LittlstarPlayerSDK/LittlstarSDK/*.h'
   end
 
   s.ios.frameworks = 'UIKit', 'GLKit', 'AVKit', 'Foundation', 'AVFoundation', 'Photos', 'MobileCoreServices', 'CoreMotion'

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Littlstar-iOS-SDK'
-  s.version          = '1.0.5'
-  s.summary          = 'Littlstar-iOS-SDK containing components for 360 video player'
+  s.version          = '1.0.1'
+  s.summary          = 'Littlstar-iOS-SDK containing components for panorama video'
   s.homepage         = 'https://littlstar.com/'
   s.license          = { 
     :type => 'Copyright',
@@ -11,9 +11,8 @@ Pod::Spec.new do |s|
   }
   s.author           = { 'Littlstar dev. team' => 'dev@littlstar.com' }
   s.source           = { :git => 'git@github.com:littlstar/ls-ios-sdk.git', 
-			 :tag => "${s.version}", 
-			 :branch => 'vp-bridge-test' }
-
+			 :tag => '1.0.1', 
+			 :branch => 'hd-pod-setup' }
   s.social_media_url = 'https://www.instagram.com/littlstarvr/'
   s.ios.deployment_target = '8.0'
   s.source_files = 'ls-ios-sdk/**/*.{h,m,swift}'

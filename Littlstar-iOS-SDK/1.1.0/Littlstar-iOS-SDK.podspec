@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LittlstarPlayerSDK', 'LittlstarPlayerSDK/**/*.{h,m,mm,swift}'
-
+  s.preserve_paths = 'LSContentManager.h'
   s.ios.frameworks = 'UIKit', 'GLKit', 'AVKit', 'Foundation', 'AVFoundation', 'Photos', 'MobileCoreServices', 'CoreMotion'
 
   s.dependency 'lottie-ios'

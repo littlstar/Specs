@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'LittlstarSDK' do |ss|
     ss.source_files = 'LSContentManager.h', 'LSCategory.h'
+    ss.preserve_paths = 'LSContentManager.h', 'LSCategory.h'
   end
 
   s.ios.frameworks = 'UIKit', 'GLKit', 'AVKit', 'Foundation', 'AVFoundation', 'Photos', 'MobileCoreServices', 'CoreMotion'

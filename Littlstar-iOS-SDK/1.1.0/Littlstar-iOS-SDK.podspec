@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Littlstar-iOS-SDK'
+  
   # s.name             = 'LittlstarPlayerSDK'
   
   s.version          = '1.1.0'

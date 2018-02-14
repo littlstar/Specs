@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name             = 'Littlstar-iOS-SDK'
-  s.version          = '1.0.1'
+  s.name             = 'LSSDK'
+  s.version          = '1.0.0'
   s.summary          = 'Littlstar-iOS-SDK containing components for panorama video'
   s.homepage         = 'https://littlstar.com/'
   s.license          = { 
@@ -10,12 +10,11 @@ Pod::Spec.new do |s|
       LICENSE
   }
   s.author           = { 'Littlstar dev. team' => 'dev@littlstar.com' }
-  s.source           = { :git => 'git@github.com:littlstar/ls-ios-sdk.git', 
-			 :tag => '1.0.1', 
-			 :branch => 'hd-pod-setup' }
+  s.source           = { :git => 'git@github.com:littlstar/Littlstar-iOS-SDK-v2.git', 
+			 :tag => "#{s.version}" }
   s.social_media_url = 'https://www.instagram.com/littlstarvr/'
-  s.ios.deployment_target = '8.0'
-  s.source_files = 'ls-ios-sdk/**/*.{h,m,swift}'
+  s.ios.deployment_target = '9.0'
+  s.source_files = 'LSSDK/**/*.{h,m,swift}'
   s.ios.frameworks = 'UIKit', 'GLKit', 'AVKit', 'Foundation', 'AVFoundation', 'Photos', 'MobileCoreServices', 'CoreMotion'
   s.dependency 'lottie-ios'
   s.dependency 'GVRSDK'

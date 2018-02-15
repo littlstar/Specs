@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LSSDK'
-  s.version          = '1.0.8'
+  s.version          = '1.0.4'
   s.summary          = 'Littlstar-iOS-SDK containing components for panorama video'
   s.homepage         = 'https://littlstar.com/'
   s.license          = {

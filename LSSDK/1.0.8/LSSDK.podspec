@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'git@github.com:littlstar/Littlstar-iOS-SDK-v2.git',
 			                   :tag => "#{s.version}" }
   s.social_media_url = 'https://www.instagram.com/littlstarvr/'
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.source_files = 'LSSDK/**/*.{h,m,swift}'
   s.public_header_files = 'LSSDK/**/*.{h,m,swift}'
   s.ios.frameworks = 'UIKit', 'GLKit', 'AVKit', 'Foundation', 'AVFoundation', 'Photos', 'MobileCoreServices', 'CoreMotion'

@@ -20,7 +20,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LittlstarPlayerSDK', 'LittlstarPlayerSDK/Interface/**/*.{h,m,mm,swift}'
+  s.source_files = 'LittlstarPlayerSDK', 'LittlstarPlayerSDK/{Core,Interface,Meta,Resources}/**/*.{h,m,mm,swift}'
+
+  s.public_header_files = 'LittlstarPlayerSDK/Interface/**/*.{h,swift}'
 
   s.subspec 'LittlstarSDK' do |ss|
     ss.source_files = 'LittlstarPlayerSDK/LittlstarSDK/*.h'

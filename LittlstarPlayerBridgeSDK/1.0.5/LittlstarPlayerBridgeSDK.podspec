@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'LittlstarPlayerSDK'
+  s.name             = 'LittlstarPlayerBridgeSDK'
   s.version          = '1.0.6'
   s.summary          = 'LittlstarPlayerSDK containing components for panorama video'
   s.homepage         = 'https://littlstar.com/'
@@ -10,15 +10,16 @@ Pod::Spec.new do |s|
       LICENSE
   }
   s.author           = { 'Littlstar dev. team' => 'dev@littlstar.com' }
-  s.source           = { :git => 'git@github.com:littlstar/LittlstarPlayerSDK.git', 
+  s.source           = { :git => 'git@github.com:littlstar/LittlstarPlayerBridgeSDK.git', 
 			 :tag => "#{s.version}" }
   s.social_media_url = 'https://www.instagram.com/littlstarvr/'
   s.ios.deployment_target = '9.0'
-  s.source_files = 'LittlstarPlayerSDK/**/*.{h,m,swift}'
-  s.public_header_files = 'LittlstarPlayerSDK/**/*.{h,m,swift}'
+
+  s.source_files = 'LittlstarPlayerBridgeSDK/**/*.{h,m,swift}'
+  s.public_header_files = 'LittlstarPlayerBridgeSDK/**/*.{h,m,swift}'
   s.ios.frameworks = 'UIKit', 'GLKit', 'AVKit', 'Foundation', 'AVFoundation', 'Photos', 'MobileCoreServices', 'CoreMotion'
-  s.ios.vendored_frameworks = 'LittlstarPlayerSDK/LittlstarPlayerSDK.framework'
+  s.ios.vendored_frameworks = 'LittlstarPlayerBridgeSDK/LittlstarPlayerBridgeSDK.framework'
   s.dependency 'lottie-ios'
-  s.dependency 'GVRSDK'
+  s.dependency 'GVRKit'
 
 end

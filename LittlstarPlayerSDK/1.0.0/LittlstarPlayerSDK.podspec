@@ -14,15 +14,12 @@ Pod::Spec.new do |s|
 			 :tag => "#{s.version}" }
   s.social_media_url = 'https://www.instagram.com/littlstarvr/'
   s.ios.deployment_target = '9.0'
+
   s.source_files = 'LittlstarPlayerSDK/**/*.{h,m,swift}'
   s.public_header_files = 'LittlstarPlayerSDK/**/*.{h,m,swift}'
   s.ios.frameworks = 'UIKit', 'GLKit', 'AVKit', 'Foundation', 'AVFoundation', 'Photos', 'MobileCoreServices', 'CoreMotion'
   s.ios.vendored_frameworks = 'LittlstarPlayerSDK/LittlstarPlayerSDK.framework'
   s.dependency 'lottie-ios'
   s.dependency 'GVRKit'
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.resource_bundles = {
-  #   '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
-  # }
+  	
 end
